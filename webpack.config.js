@@ -4,7 +4,6 @@ let path = require('path');
 
 module.exports = {
   devtool: "inline-source-map",
-  //devtool: "cheap-eval-source-map",
   context: path.resolve(__dirname, "./src"), //__dirname + '/frontend',
   entry:   {
     async: './async',
