@@ -7,8 +7,7 @@ module.exports = {
   context: path.resolve(__dirname, "./src"), //__dirname + '/frontend',
   entry:   {
     async: './async',
-    generator: './generator',
-    'regenerator-runtime': 'regenerator-runtime/runtime' // модуль для работы генераторов и асинхронных функций
+    generator: './generator'
   },
   output:  {
     path:  path.resolve(__dirname, "./dist"), //    __dirname + '/public',

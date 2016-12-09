@@ -27,3 +27,5 @@ async function add2(x) {
 add2(10).then(v => {
   console.log(v);  // prints 60 after 4 seconds.
 });
+
+let promise = new Promise(()=>{});
