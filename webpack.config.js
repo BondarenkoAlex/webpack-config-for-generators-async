@@ -13,7 +13,6 @@ module.exports = {
     path:  path.resolve(__dirname, "./dist"), //    __dirname + '/public',
     filename: '[name].js'
   },
-
   module: {
     loaders: [{
       test:   /\.js$/,
